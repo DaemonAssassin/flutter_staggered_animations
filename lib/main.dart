@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:staggered_animations/staggered_animation2/dynamic_container.dart';
+import 'package:staggered_animations/staggered_anim_package/home.dart';
 
 void main(List<String> args) {
   runApp(
     const MaterialApp(
-      home: DynamicContainer(),
+      debugShowCheckedModeBanner: false,
+      home: Home(),
     ),
   );
 }
