@@ -18,7 +18,7 @@ class DynamicContainerState extends State<DynamicContainer>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 3),
+      duration: const Duration(seconds: 5),
     );
   }
 
